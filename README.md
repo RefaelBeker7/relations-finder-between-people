@@ -23,8 +23,11 @@ The following classes define a person with a name and address:
 
 - The above example is written in C#. 
 
+* We define a direct relation between two people as follows: Person A is directly related to person B if either their full name and/or address are exactly equal (case-sensitive). 
+* We define an n-level relation between person A and person B if you can reach from person A to person B in exactly n direct relation hops. 1-level relation is a direct relation.
 
-![Example:](https://github.com/RefaelBeker7/relations-finder-between-people/blob/main/relation.png)
+- Example:
+![](https://github.com/RefaelBeker7/relations-finder-between-people/blob/main/relation.png)
 
 Implement a utility that finds the minimal relation level between two people.
 The utility should have the following functions:
@@ -33,5 +36,4 @@ The utility should have the following functions:
 	int FindMinRelationLevel(Person personA, Person personB) - Returns the minimal level of relation between personA and personB.  
     If they are not related, return -1.
 
-* We define a direct relation between two people as follows: Person A is directly related to person B if either their full name and/or address are exactly equal (case-sensitive). 
-* We define an n-level relation between person A and person B if you can reach from person A to person B in exactly n direct relation hops. 1-level relation is a direct relation.
+
