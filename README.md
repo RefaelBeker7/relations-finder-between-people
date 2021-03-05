@@ -1,7 +1,7 @@
 # relations-finder-between-people
 Finds the minimal relation level between two people - shortest path in an unweighted graph using Dijkstra.
 
-_A utility that finds the minimal relation level between two people._
+> A utility that finds the minimal relation level between two people.
 
 The following classes define a person with a name and address:
 
