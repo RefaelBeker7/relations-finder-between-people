@@ -21,7 +21,7 @@ The following classes define a person with a name and address:
 		public string City { get; set; }
 	}
 
-* The above example is written in C#. 
+- The above example is written in C#. 
 
 
 ![Example:](https://github.com/RefaelBeker7/relations-finder-between-people/blob/main/relation.png)
