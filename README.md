@@ -26,7 +26,7 @@ The following classes define a person with a name and address:
 * We define a direct relation between two people as follows: Person A is directly related to person B if either their full name and/or address are exactly equal (case-sensitive). 
 * We define an n-level relation between person A and person B if you can reach from person A to person B in exactly n direct relation hops. 1-level relation is a direct relation.
 
-- Example:
+> Example:
 ![](https://github.com/RefaelBeker7/relations-finder-between-people/blob/main/relation.png)
 
 Implement a utility that finds the minimal relation level between two people.
